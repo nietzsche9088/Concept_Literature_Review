@@ -1,1 +1,9 @@
 # Concept_Literature_Review
+| Paper | Proceedings / Journal | Venue Year / Last Updated | Code | Alternative PDF Source | Notes |
+| ----- | --------------------- | ------------------------- | ---- | ---------------------- | ----- |
+| **$\beta$-VAE**: Learning Basic Visual Concepts With a Constrained Variational Framework | ICLR | 2017 | Null | [OpenReview](https://openreview.net/pdf?id=Sy2fzU9gl) | - Google DeepMind <br> -  unsupervised interprete latent representations from image data <br> - modification of VAE <br> - introduce adjustable hyperparameter $\beta$ [balance latent channel capacity & indepedentce constraints w/ reconstruction accuracy] <br> -$\beta$-VAE outperform regular VAE and InfoGAN(unsupervised) and DC-IGN(semi-supervised) on celebA, faces, chairs dataset | 
+| **Custom Diffusion** Multi-Concept Customization of Text-to-Image Diffusion | CVPR | 2023 | [Code](https://github.com/adobe-research/custom-diffusion) | [Project](https://www.cs.cmu.edu/~custom-diffusion/) | - Jun-Yan Zhu Lab |
+| Erasing Concepts from Diffusion Models | ICCV | 2023 | [Code](https://github.com/rohitgandikota/erasing) | [Project](https://erasing.baulab.info/)| - David Bau Lab |
+| Ablating Concepts in Text-to-Image Diffusion Models | ICCV | 2023 | [Code](https://github.com/nupurkmr9/concept-ablation) | [Project](https://www.cs.cmu.edu/~concept-ablation/) | - Jun-Yan Zhu Lab |
+| **UCE**  Unified Concept Editing in Diffusion Models | WACV | 2024 | [Code](https://github.com/rohitgandikota/unified-concept-editing) | [Project](https://unified.baulab.info/) | - David Bau Lab
+| **Concept Sliders**: LoRA Adaptors for Precise Control in Diffusion Models | ECCV | 2024 | [Code](https://github.com/rohitgandikota/sliders) | [Project](https://sliders.baulab.info/) | - David Bau Lab |
